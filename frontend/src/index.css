@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.addCarForm{
+  max-width: 850px !important;
+}
+
+.allCars{
+  display: flex;
+}
+
+.carCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  
+}
+
+.carFilter{
+  position: fixed;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  right: 40px;
+  width: fit-content;
+  padding: 10px;
+  border: 2px solid black;
+  height: auto;
+}
+
+.carDetails{
+  width: 350px;
+  height: 250px;
+  border: 2px solid red;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 10px;
+
+}
+
+.carCard img{
+  width: 250px;
+  height: 150px;
+ 
+}
+
+main{
+height: 100vh;
+overflow: scroll; 
+}
+
+.editcarimage img{
+  width: 150px;
+  height: 100px;
+}
+
+.editPage{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
